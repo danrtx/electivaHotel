@@ -6,13 +6,11 @@ import RoomCard from '../../components/RoomCard';
 export default function Rooms() {
   return (
     <div className="min-h-screen bg-amber-50 flex flex-col font-poppins">
-      {/* Barra superior */}
       <div className="w-full bg-amber-600 text-white py-4 px-6 shadow-md">
         <h1 className="text-2xl font-bold">Hotel Lindo Sueño</h1>
       </div>
       
       <div className="flex flex-1">
-        {/* Barra de navegación expandida */}
         <div className="w-72 bg-amber-100 h-full border-r border-amber-200">
           <div className="h-full flex flex-col">
             <NavItem label="Home" active={false} />
@@ -26,7 +24,6 @@ export default function Rooms() {
           </div>
         </div>
 
-        {/* Contenido principal con tarjetas expandidas */}
         <div className="flex-1 p-6 overflow-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Double Room Card 1 */}
