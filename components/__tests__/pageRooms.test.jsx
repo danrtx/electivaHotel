@@ -1,7 +1,7 @@
 // app/rooms/__tests__/page.test.jsx
 import React from 'react'
 import { render, screen } from '@testing-library/react'
-import Rooms from '../../app/rooms/pageRooms';
+import Rooms from '../../app/rooms/page';
 
 jest.mock('../../components/NavItem', () => ({ label }) => <div>{label}</div>)
 jest.mock('../../components/RoomCard', () => ({ title, description }) => (
